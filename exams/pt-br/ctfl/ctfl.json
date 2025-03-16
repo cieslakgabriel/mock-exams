@@ -1,0 +1,721 @@
+{
+    "title": "CTFL Mock Exam",
+    "description": "Este exame simula a certificação Certified Tester Foundation Level (CTFL), cobrindo pontos chave dos principios e praticas em teste de software. Exame versão 1.0 de 2023-04-12/n Disponível em: https://bstqb.qa/files/exam_sample_ctfl_A_1br.pdf",
+    "numberOfQuestions": 10,
+    "legalDisclaimer": "Este sistema de exame simulado é destinado apenas para fins educacionais e não comerciais. As questões do exame usadas neste sistema são derivadas de exames de amostra do ISTQB®, e todos os direitos permanecem com o International Software Testing Qualifications Board (ISTQB®). Este sistema não é afiliado, endossado ou oficialmente associado ao ISTQB®. O conteúdo é fornecido para auxiliar indivíduos em sua preparação para os exames de certificação do ISTQB®. Para materiais e exames oficiais do ISTQB®, visite www.istqb.org",
+    "passingScore": 0.6,
+    "timeLimit": 2,
+    "questions": [
+        {
+            "questionType": "plain",
+            "questionContent": " Q1 Quais das seguintes afirmações descrevem um objetivo de teste válido?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Para provar que não há defeitos não corrigidos no sistema em teste.",   
+              "B) Para mostrar que o software está livre de defeitos.",  
+              "C) Reduzir o nível de risco do objeto de teste e aumentar a confiança no nível de qualidade",
+              "D) Para verificar se não há combinações não testadas de entradas."      
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q2 Qual das opções a seguir mostra um exemplo que contribui para o sucesso das atividades de teste?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) O envolvimento dos testadores durante várias atividades do ciclo de vida de desenvolvimento de software (SDLC) ajudará a detectar defeitos nos produtos de trabalho.",
+              "B) Os testadores tentam não perturbar os desenvolvedores durante a codificação, para que eles escrevam um código melhor."  ,
+              "C) Os testadores que colaboram com os usuários finais ajudam a melhorar a qualidade dos relatórios de defeitos durante a integração de componentes e o teste do sistema.",
+              "D) Os testadores certificados modelarão casos de teste muito melhores do que os testadores não certificados."
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q3 Você foi designado como testador de uma equipe que está produzindo um novo sistema de forma incremental. Você notou que nenhuma alteração foi feita nos casos de teste de regressão existentes durante várias iterações e nenhum novo defeito de regressão foi identificado. Seu gerente está feliz, mas você não está. Qual princípio de teste explica seu ceticismo? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Os testes se desgastam.",
+              "B) A prevenção de defeitos.",
+              "C) A detecção precoce de defeitos.",
+              "D) A dependência de testes de regressão."
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q4 Você trabalha em uma equipe que desenvolve um aplicativo móvel para pedidos de comida. Na iteração atual, a equipe decidiu implementar a funcionalidade de pagamento. Qual das atividades a seguir faz parte da análise de teste? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Estimativa de que o teste da integração com o serviço de pagamento levará 8 dias/homem.",
+              "B) Decidir que a equipe deve testar se é possível realizar o pagamento entre muitos usuários.",
+              "C) Usar a análise de valor limite (BVA) para derivar os dados de teste para os casos de teste que verificam o processamento correto do pagamento para o valor mínimo permitido a ser pago.",
+              "D) Analisar a discrepância entre o resultado real e o resultado esperado após a execução de um caso de teste que verifica o processo de pagamento com cartão de crédito e relatar um defeito."      
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q5 Quais dos seguintes fatores (i-v) têm influência SIGNIFICATIVA no processo de teste? i. O SDLC; ii. O número de defeitos detectados em projetos anteriores; iii. Os riscos identificados do produto; iv. Novos requisitos regulatórios forçando; v. O número de testadores certificados na organização;",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) i, ii têm influência significativa; iii, iv, v não têm.",
+              "B) i, iii, iv têm influência significativa; ii, v não têm.",
+              "C) ii, iv, v têm influência significativa; i, iii não têm.",
+              "D) iii, v têm influência significativa; i, ii, iv não têm"              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q6 Quais das DUAS tarefas a seguir pertencem PRINCIPALMENTE a um papel no teste? ",
+            "correctAnswer": ["",""],
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Configurar ambientes de teste.",
+              "B) Manter o backlog do produto.",
+              "C) Projetar soluções para novos requisitos.",
+              "D) Criar o plano de teste.",
+              "E) Relatório sobre a cobertura alcançada."
+              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q7 Quais das seguintes habilidades (i-v) são as MAIS importantes para um testador?\ni. Ter conhecimento do domínio;\nii. Criação de uma visão do produto;\niii. Ser um bom membro da equipe;\niv. Planejar e organizar o trabalho da equipe;\nv. Pensamento crítico",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) ii e iv são importantes; i, iii e v não são",
+              "B) i, iii e v são importantes; ii e iv não são",
+              "C) i, ii e v são importantes; iii e iv não são",
+              "D) iii e iv são importantes; i, ii e v não são"
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q8 Como a abordagem de equipe inteira está presente nas interações entre os testadores e os representantes da empresa? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Os representantes do negócio decidem sobre as abordagens de automação de testes.",
+              "B) Os testadores ajudam os representantes da empresa a definir a estratégia de teste.",
+              "C) Os representantes de negócio não participam da abordagem de equipe inteira.",
+              "D) Os testadores ajudam os representantes de negócio a criar testes de aceite adequados."
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q9 Considere a seguinte regra: 'para cada atividade do SDLC, há uma atividade de teste correspondente'. Em quais modelos de SDLC essa regra é válida? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Somente em modelos sequenciais.",
+              "B) Somente em modelos iterativos.",
+              "C) Somente em modelos iterativos e incrementais.",
+              "D) Em modelos de sequenciais, incrementais e iterativos."             
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q10 Qual das seguintes afirmações descreve MELHOR a abordagem de desenvolvimento orientado por testes de aceite (ATDD)? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) No ATDD, os critérios de aceite geralmente são criados com base no formato dado/quando/então.",
+              "B) No ATDD, os casos de teste são criados principalmente no teste de componentes e são orientados para o código",
+              "C) No ATDD, os testes são criados com base em critérios de aceite para orientar o desenvolvimento do software.",
+              "D) No ATDD, os testes são baseados no comportamento desejado do software, o que facilita a compreensão dos membros da equipe."            
+            ]
+          },        
+          {
+            "questionType": "plain",
+            "questionContent": "Q11 Qual das opções a seguir NÃO é um exemplo da abordagem shift-left?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Revisar os requisitos do usuário antes que eles sejam formalmente aceitos pelos stakeholders.",
+              "B) Escrever um teste de componente antes que o código correspondente seja escrito.",
+              "C) Execução de um teste de eficiência de performance para um componente durante o teste do componente.",
+              "D) Escrever um script de teste antes de definir o processo de gerenciamento de configuração."           
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q12 Qual dos argumentos abaixo você usaria para convencer seu gerente a organizar retrospectivas no final de cada ciclo de lançamento? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) As retrospectivas são muito populares hoje em dia e os clientes gostariam que as adicionássemos aos nossos processos.",
+              "B) A organização de retrospectivas economizará dinheiro, pois os representantes dos usuários finais não fornecem feedback imediato sobre o produto.",
+              "C) Os pontos fracos do processo, identificados durante a retrospectiva, podem ser analisados e servir como uma lista de tarefas para o programa de melhoria contínua do processo da organização.",
+              "D) As retrospectivas adotam cinco valores, incluindo coragem e respeito, que são cruciais para manter o aprimoramento contínuo na organização."          
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q13 Quais tipos de falhas (1-4) se encaixam melhor em quais níveis de teste (A-D)? (1) Falhas no comportamento do sistema à medida que ele se desvia das necessidades de negócio do usuário. (2) Falhas na comunicação entre os componentes. (3) Falhas na lógica em um módulo. (4) Falhas nas regras de negócios não implementadas corretamente. (A) Teste de componentes. (B) Teste de integração de componentes. (C) Teste de sistema. (D) Teste de aceite.",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) 1D, 2B, 3A, 4C",
+              "B) 1D, 2B, 3C, 4A",
+              "C) 1B, 2A, 3D, 4C",
+              "D) 1C, 2B, 3A, 4D "            
+            ]
+          },
+          {
+            "questionType": "html",
+            "questionContent": "Q14",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q15 Qual das opções a seguir NÃO é um benefício dos testes estáticos? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "Ter um gerenciamento de defeitos menos dispendioso devido à facilidade de detectar defeitos mais tarde no processo SDLC.",
+              "B) A correção de defeitos encontrados durante o teste estático geralmente é muito mais barata do que a correção de defeitos encontrados durante o teste dinâmico.",
+              "C) Encontrar defeitos de codificação que poderiam não ter sido encontrados apenas com a realização de testes dinâmicos.",
+              "D) Detecção de lacunas e inconsistências nos requisitos"              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q16 Qual dos seguintes é um benefício do feedback antecipado e frequente? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Melhora o processo de teste para projetos futuros.",
+              "B) Ele força os clientes a priorizarem seus requisitos com base nos riscos acordados.",
+              "C) Essa é a única maneira de medir a qualidade das mudanças.",
+              "D) Isso ajuda a evitar mal-entendidos sobre os requisitos."              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q17 As revisões que estão sendo usadas em sua organização têm os seguintes atributos:\\n• Há o papel de um redator.\\n• O principal objetivo é avaliar a qualidade.\\n• A reunião é conduzida pelo autor do produto de trabalho.\\n• Há uma preparação individual.\\n• É produzido um relatório de revisão.\\nQual dos seguintes tipos de revisão é MAIS provável que esteja sendo usado?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Revisão informal.",
+              "B) Walkthrough.",
+              "C) Revisão técnica.",
+              "D) Inspeção."           
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q18 Qual dessas afirmações NÃO é um fator que contribui para revisões bem-sucedidas?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Os participantes devem dedicar tempo suficiente para a análise.",
+              "B) Dividir grandes produtos de trabalho em pequenas partes para tornar o esforço necessário menos intenso.",
+              "C) Os participantes devem evitar comportamentos que possam indicar tédio, exasperação ou hostilidade com outros participantes.",
+              "D) As falhas encontradas devem ser reconhecidas, apreciadas e tratadas de forma objetiva."             
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q19 Qual das seguintes é uma característica das técnicas de teste baseadas em experiência? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Os casos de teste são criados com base em informações detalhadas do projeto.",
+              "B) Os itens testados na seção de código da interface são usados para medir a cobertura.",
+              "C) As técnicas dependem muito do conhecimento do testador sobre o software e o domínio do negócio.",
+              "D) Os casos de teste são usados para identificar desvios dos requisitos."           
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q20 Você está testando um formulário simplificado de busca de apartamento que tem apenas dois critérios de busca: • andar (com três opções possíveis: térreo; primeiro andar; segundo andar) • tipo de jardim (com três opções possíveis: sem jardim; jardim pequeno; jardim grande) Somente apartamentos no andar térreo podem ter jardins. O formulário tem um mecanismo de validação integrado que não permitirá que você use os critérios de pesquisa que violam essa regra. Cada teste tem dois valores de entrada: andar e tipo de jardim. Você deseja aplicar o particionamento de equivalência (EP) para cobrir cada andar e cada tipo de jardim em seus testes. Qual é o número mínimo de casos de teste para atingir 100% de cobertura do EP? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) 3",
+              "B) 4",
+              "C) 5",
+              "D) 6"             
+            ]
+          },
+          {
+            "questionType": "html",
+            "questionContent": "Q21",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "html",
+            "questionContent": "Q22",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "html",
+            "questionContent": "Q23",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q24 Seu conjunto de testes atingiu 100% de cobertura de instrução. Qual é a consequência desse fato? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Cada instrução no código que contém um defeito foi executada pelo menos uma vez.",
+              "B) Qualquer conjunto de testes que contenha mais casos de teste do que o seu conjunto de testes também alcançará 100% de cobertura de instrução.",
+              "C) Cada caminho no código foi executado pelo menos uma vez.",
+              "D) Cada combinação de valores de entrada foi testada pelo menos uma vez."         
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q25 Qual das opções a seguir NÃO é verdadeira para testes caixa-branca?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Durante o teste caixa-branca, toda a implementação do software é considerada.",
+              "B) As métricas de cobertura caixa-branca podem ajudar a identificar testes adicionais para aumentar a cobertura do código.",
+              "C) As técnicas de teste caixa-branca podem ser usadas em testes estáticos.",
+              "D) O teste caixa-branca pode ajudar a identificar lacunas na implementação dos requisitos"              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q26 Qual das opções a seguir descreve MELHOR o conceito por trás da suposição de erros? ",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) A suposição de erros envolve o uso de seu conhecimento e experiência de defeitos encontrados no passado e erros típicos cometidos por desenvolvedores.",
+              "B) A suposição de erros envolve o uso de sua experiência pessoal de desenvolvimento e os erros que você cometeu como desenvolvedor.",
+              "C) A suposição de erros exige que você imagine que é o usuário do objeto de teste e adivinhe os erros que o usuário poderia cometer ao interagir com ele.",
+              "D) A suposição de erros exige que você duplique rapidamente a tarefa de desenvolvimento para identificar os tipos de erros que um desenvolvedor pode cometer."        
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "Q27 Em seu projeto, houve um atraso no lançamento de um aplicativo totalmente novo e a execução do teste\ncomeçou tarde, mas você tem um conhecimento de domínio muito detalhado e boas habilidades analíticas. A\nlista completa de requisitos ainda não foi compartilhada com a equipe, mas a gerência está pedindo que alguns\nresultados de testes sejam apresentados.\nQual técnica de teste se encaixa MELHOR nessa situação?",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              "A) Testes baseados em listas de verificação.",
+              "B) Suposição de erros.",
+              "C) Testes exploratórios.",
+              "D) Teste de ramificação"
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          },
+          {
+            "questionType": "plain",
+            "questionContent": "",
+            "correctAnswer": "",
+            "AnswerExplanation": "",
+            "wrongOptions": [
+              ""              
+            ]
+          }        
+    ]
+  }
+  
